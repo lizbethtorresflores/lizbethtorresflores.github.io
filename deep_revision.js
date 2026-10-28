@@ -389,3 +389,6 @@ copy.fr.projects.find(p => p.id === 'vis-swir').result = "Huit tâches couvrent 
 copy.en.experience[3].actions[2] = "Tested a locally developed PLC prototype and contributed to its user guide; also worked on measurement devices and electrical cabinets.";
 copy.fr.experience[3].actions[2] = "J’ai testé un prototype d’automate développé au Pérou et contribué à sa notice ; j’ai également travaillé sur des dispositifs de mesure et des armoires électriques.";
 copy.es.experience[3].actions[2] = "Realicé pruebas de un prototipo de PLC desarrollado en Perú y contribuí a su guía de uso; también participé en dispositivos de medición y armarios eléctricos.";
+copy.en.cvBody = "A three-page CV with selected experience, projects and technical skills. Explore this website for the full project details.";
+copy.fr.cvBody = "Un CV de trois pages présentant mes expériences, projets et compétences techniques. Les réalisations sont détaillées sur ce site.";
+copy.es.cvBody = "Un CV de tres páginas con experiencias, proyectos y competencias técnicas seleccionadas. Los detalles de cada proyecto están en esta web.";
