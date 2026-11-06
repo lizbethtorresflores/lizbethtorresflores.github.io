@@ -177,3 +177,8 @@ main{min-width:0}.section{padding:77px 0;border-bottom:1px solid var(--line)}.he
 .topbar .menu-toggle{order:3;margin-left:12px}
 .topbar .language-switch button{min-width:29px;min-height:27px}
 @media(max-width:600px){.topbar{padding-left:14px;padding-right:14px}.topbar .brand-name{display:none}.topbar .language-switch{margin-left:8px}.topbar .menu-toggle{margin-left:8px}}
+
+/* Preserve the full EuroSAT imagery and the readable confusion matrix. */
+.project-eurosat .project-thumb img{object-fit:contain;background:#fff}
+.case-gallery .case-image:has(img[src="assets/eurosat-confusion-matrix.png"]){grid-column:1/-1}
+.case-gallery .case-image img[src="assets/eurosat-confusion-matrix.png"]{height:auto;max-height:none}
